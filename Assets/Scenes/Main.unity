@@ -758,6 +758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613262579}
   - component: {fileID: 1613262578}
+  - component: {fileID: 1613262580}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -796,6 +797,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1613262580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613262577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5133efbc4390642a70a6edfff9754a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pipesPrefab: {fileID: 7391210482603266793, guid: c177252e1919c0f42bc919f7ffa19f5b, type: 3}
+  _pipesPoolSize: 5
+  _spawnRate: 4
+  _pipesPositionMin: -2
+  _pipesPositionMax: 2
+  _spawnXPos: 20
 --- !u!1 &1853134172
 GameObject:
   m_ObjectHideFlags: 0
