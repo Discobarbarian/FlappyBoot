@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Skybox
+    uniqueID: 131607915
+    locked: 0
+  - name: Pipes
+    uniqueID: 3201129421
+    locked: 0
+  - name: Ground
+    uniqueID: 1584809345
+    locked: 0
